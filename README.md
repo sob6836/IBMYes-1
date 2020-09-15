@@ -2,7 +2,7 @@ fork [https://github.com/CCChieh/IBMYes](https://github.com/CCChieh/IBMYes)
 
 
 # 更新内容:
-* `Secrets` 加入 `V2_ID`, `V2_PATH`, `ALTER_ID`,  
+* `Secrets` 加入 `V2_ID`, `V2_PATH`, `ALTER_ID`,   
   对应`vmess id`, `ws path`, `alterId`
 * 每周自动更新`v2ray`后重新`push`
 
@@ -72,4 +72,5 @@ addEventListener(
     server: cloudflare.com
     ws-headers:
       Host: cloudflare_workers.dev
+      
 ```
